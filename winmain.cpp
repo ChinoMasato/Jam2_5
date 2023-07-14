@@ -234,4 +234,8 @@ void a()
 			PlayMusic("maou_game_vehicle03.mp3", DX_PLAYTYPE_LOOP);
 		}
 	}
+	if (clearflag3 == true)
+	{
+		DrawFormatString(350, 300, GetColor(255, 255, 255), "ゲームクリア！THANK YOU FOR PLAYING!");
+	}
 }
