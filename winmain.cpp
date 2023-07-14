@@ -236,6 +236,6 @@ void a()
 	}
 	if (clearflag3 == true)
 	{
-		DrawFormatString(350, 300, GetColor(255, 255, 255), "ゲームクリア！THANK YOU FOR PLAYING!");
+		DrawFormatString(270, 300, GetColor(255, 255, 255), "ゲームクリア！THANK YOU FOR PLAYING!");
 	}
 }
