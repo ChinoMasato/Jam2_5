@@ -237,6 +237,6 @@ void a()
 	if (clearflag3 == true)
 	{
 		DrawFormatString(270, 300, GetColor(255, 255, 255), "ゲームクリア！THANK YOU FOR PLAYING!");
-		DrawFormatString(270, 330, GetColor(255, 255, 255), "最終年俸%d", score);
+		DrawFormatString(270, 330, GetColor(255, 255, 255), "最終年俸 %d 円", score);
 	}
 }
