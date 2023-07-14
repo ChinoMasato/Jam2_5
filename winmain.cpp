@@ -212,7 +212,7 @@ void a()
 {
 	if (clearflag1 == true&&clearflag2==false)
 	{
-		DrawFormatString(350, 300, GetColor(255, 255, 255), "1面クリア！Enterで2面へ");
+		DrawFormatString(320, 300, GetColor(255, 255, 255), "1面クリア！Enterで2面へ");
 
 		if (CheckHitKey(KEY_INPUT_RETURN) == 1)
 		{
