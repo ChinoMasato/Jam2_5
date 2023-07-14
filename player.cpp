@@ -13,7 +13,7 @@ int leafcooltime = 0;
 //ƒvƒŒƒCƒ„[‚Ì‰Šú‰»
 void initPlayer()
 {
-	shotse = LoadSoundMem("maou_se_battle16.mp3");
+	shotse = LoadSoundMem("rouki_straight.mp3");
 	player.x = 100;
 	player.y = 200;
 	player.r = 10;
